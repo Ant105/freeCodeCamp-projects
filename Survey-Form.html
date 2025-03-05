@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="Survey-Form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="form-section">
+
+
+      <h1 id="title">Help Us Improve! Share Your Experience</h1>
+      <p id="description">Your feedback is very important to us. This 
+      survey will take no more than 5 minutes</p>
+
+      <form id="survey-form">
+
+      
+      
+      <div class="left-part">
+
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="Enter your name">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" placeholder="Age" min="5" max="110">
+        
+        <label for="dropdown-one">How long have you been using our product?</label>
+        <select id="dropdown">
+          <option>Less than a month</option>
+          <option>Less than a year</option>
+          <option>More than a year</option>
+        </select>
+
+        <label for="dropdown-two">How often do you use our product?</label>
+        <select id="dropdown-two">
+          <option>Daily</option>
+          <option>A few times a week</option>
+          <option>A few times a month</option>
+          <option>Rarely</option>
+        </select>
+
+        <fieldset>
+          <legend>How easy is our interface to use?</legend>
+          <input type="radio" name="interface" value="1" id="radio-button-one">
+          <label for="radio-button-one">1</label>
+          <input type="radio" name="interface" value="2" id="radio-button-two">
+          <label for="radio-button-two">2</label>
+          <input type="radio" name="interface" value="3" id="radio-button-three">
+          <label for="radio-button-three">3</label>
+          <input type="radio" name="interface" value="4" id="radio-button-four">
+          <label for="radio-button-four">4</label>
+          <input type="radio" name="interface" value="5" id="radio-button-five">
+          <label for="radio-button-five">5</label>
+          <input type="radio" name="interface" value="6" id="radio-button-six">
+          <label for="radio-button-six">6</label>
+          <input type="radio" name="interface" value="7" id="radio-button-seven">
+          <label for="radio-button-seven">7</label>
+          <input type="radio" name="interface" value="8" id="radio-button-eight">
+          <label for="radio-button-eight">8</label>
+          <input type="radio" name="interface" value="9" id="radio-button-nine">
+          <label for="radio-button-nine">9</label>
+          <input type="radio" name="interface" value="10" id="radio-button-tan">
+          <label for="radio-button-tan">10</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Did you experience any difficulties during 
+          registration or checkout?</legend>
+          <input type="radio" name="difficulties" value="yes" id="radio-button-yes">
+          <label for="radio-button-yes">Yes</label>
+          <input type="radio" name="difficulties" value="no" id="radio-button-no">
+          <label for="radio-button-no">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Which features do you find most useful?</legend>
+          <input type="checkbox" value="search" id="features-checkbox-one">
+          <label for="features-checkbox-one">Easy search</label>
+          <br>
+          <input type="checkbox" value="account" id="features-checkbox-two">
+          <label for="features-checkbox-two">Personal account</label>
+          <br>
+          <input type="checkbox" value="chat-support" id="features-checkbox-three">
+          <label for="features-checkbox-three">Live chat support</label>
+          <br>
+          <input type="checkbox" value="other-services" id="features-checkbox-four">
+          <label for="features-checkbox-four">Integration with other services</label>
+        </fieldset>
+
+      </div>
+
+      <div class="right-part">
+
+        <fieldset>
+          <legend>What do you value most in a service like ours?</legend>
+          <input type="checkbox" value="fast-response" id="value-checkbox-one">
+          <label for="value-checkbox-one">Fast response time</label>
+          <br>
+          <input type="checkbox" value="design" id="value-checkbox-three">
+          <label for="value-checkbox-three">User friendly design</label>
+          <br>
+          <input type="checkbox" value="pricing" id="value-checkbox-four">
+          <label for="value-checkbox-four">Affordable pricing</label>
+          <br>
+          <input type="checkbox" value="a-lot-of-features" id="value-checkbox-five">
+          <label for="value-checkbox-five">Wide range of features</label>
+        </fieldset>
+
+        <label for="suggestion">What could you improve?</label>
+        <textarea id="suggestion" placeholder="Your suggestion..."></textarea>
+
+        <fieldset>
+          <legend>How likely are you to recommend us?</legend>
+            <input type="radio" name="recommend" value="1" id="recommend-one">
+            <label for="recommend-one">1</label>
+            <input type="radio" name="recommend" value="2" id="recommend-two">
+            <label for="recommend-two">2</label>
+            <input type="radio" name="recommend" value="3" id="recommend-three">
+            <label for="recommend-three">3</label>
+            <input type="radio" name="recommend" value="4" id="recommend-four">
+            <label for="recommend-four">4</label>
+            <input type="radio" name="recommend" value="5" id="recommend-five">
+            <label for="recommend-five">5</label>
+            <input type="radio" name="recommend" value="6" id="recommend-six">
+            <label for="recommend-six">6</label>
+            <input type="radio" name="recommend" value="7" id="recommend-seven">
+            <label for="recommend-seven">7</label>
+            <input type="radio" name="recommend" value="8" id="recommend-eight">
+            <label for="recommend-eight">8</label>
+            <input type="radio" name="recommend" value="9" id="recommend-nine">
+            <label for="recommend-nine">9</label>
+            <input type="radio" name="recommend" value="10" id="recommend-ten">
+            <label for="recommend-ten">10</label>
+        </fieldset>
+
+        <label for="comment">Final comments?</label>
+        <textarea id="comment" placeholder="Your thoughts..."></textarea>
+        
+
+        <input type="submit" id="submit">
+
+      </div>
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
