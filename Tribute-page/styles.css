@@ -1,0 +1,72 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-bottom: 2000px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+}
+
+#img-caption {
+  background-color: rgb(207, 207, 207);
+  width: 700px;
+  max-width: 80vw;
+}
+
+#tribute-info {
+  width: 600px;
+  max-width: 80vw;
+  margin: auto;
+}
+
+#tribute-info p {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#tribute-info p::before {
+  content: "";
+  background: linear-gradient(45deg, rgb(129, 25, 129), rgb(97, 97, 211), rgb(0, 255, 0), rgb(158, 22, 45));
+  width: 8px;
+  height: 8px;
+  filter: blur(0.5px);
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+footer {
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer::before {
+  content: "";
+  background: linear-gradient(red, orange, yellow, green, cyan, blue, purple);
+  width: 105%;
+  height: 105%;
+  position: absolute;
+  z-index: -1;
+}
+
+#tribute-link {
+  color: red;
+  font-weight: 700;
+}
